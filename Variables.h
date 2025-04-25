@@ -16,8 +16,9 @@ extern int lcd_cursor_pos, lcd_page_num;
 extern int lcd_clock_mode, lcd_alarm_mode, lcd_timer_mode;
 
 // clock task global variables
-#define WIFI_SSID "IpronsWiFi"
-#define WIFI_PASSWORD "Nurhakim!nt3rnet"
+#define WIFI_SSID "YOUR_SSID"
+#define WIFI_PASSWORD "YOUR_PASSWORD"
+#define TIME_ZONE +7
 extern struct tm timeinfo;
 
 // alarm task global variables

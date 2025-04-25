@@ -20,7 +20,7 @@
 
 // ntp server parameters
 const char* ntpServer = "pool.ntp.org";
-const long  gmtOffset_sec = 7*3600;
+const long  gmtOffset_sec = TIME_ZONE*3600;
 const int   daylightOffset_sec = 0;
 
 ESP32Time rtc(daylightOffset_sec);
